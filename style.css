@@ -1,0 +1,105 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  height: 710px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.left-block {
+  width: 50%;
+  padding: 20px;
+}
+
+.txt-input {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+input {
+  height: 15px;
+  width: 90%;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px;
+  margin-top: 20px;
+  border: 1px solid rgb(3, 113, 133);
+}
+
+.add-user, .edit-user {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid rgb(3, 113, 133);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.add-user:hover, .edit-user:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.edit-user {
+  display: none;
+}
+
+.right-block {
+  padding: 20px;
+  width: 50%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.table {
+  font-size: 20px;
+}
+
+.table-head {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.td {
+  text-align: left;
+  width: 60px;
+}
+
+.btnDelete, .btnEdit {
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+.btnDelete:hover {
+  background-color: rgb(221, 1, 1);
+}
+
+.btnDelete {
+  background-color: red;
+}
+
+.btnEdit {
+  background-color: orange;
+}
+
+.btnEdit:hover {
+  background-color: rgb(223, 145, 0);
+}
